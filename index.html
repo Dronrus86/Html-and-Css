@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wraper">
+        <header>
+            <div class="search_header">
+                <p>Enter inventory number, guid or bims id</p>
+                <input id="search" value="A-001234">
+                <button id="button_search">Search</button>
+            </div>
+        </header>
+
+        <main>
+            <div class="analytical_scales">
+                <div class="scales">
+                    <div class="name_scales">
+                        <div>
+                            <img src="img/scale.png" alt="scales">
+                        </div>
+                        <div>
+                            <h2>Аналитические весы OHAUS Adventurer АХ324 (B715976163)</h2>
+                        </div>
+                    </div>
+
+
+                    <select id="selectID">
+                        <option>1 month</option>
+                        <option>2 month</option>
+                        <option>3 month</option>
+                        <option>4 month</option>
+                    </select>
+
+
+
+                    <div id="checked">
+
+                        <div>
+                            <input id="radio-1" type="radio" checked name="raz" class="real-radio-btn" /><label
+                                for="dva1"><span>Calibration</span></label>
+                        </div>
+
+                        <div>
+                            <input id="radio-2" type="radio" name="raz" class="real-radio-btn" /><label
+                                for="dva1"><span>Measuring</span></label>
+                        </div>
+
+                        <div>
+                            <input id="radio-3" type="radio" name="raz" class="real-radio-btn" /><label
+                                for="dva1"><span>Using</span></label>
+                        </div>
+
+
+                        <div class="report_button">
+                            <button class="generate_report">Generate report</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="information">
+
+                    <h5>Тип оборудования: <span>Весы</span></h5>
+                    <h5>Статус: <span>Готов к работе</span></h5>
+                    <h5>Изготовитель: <span>Ohaus</span></h5>
+                    <h5>Модель: <span>AX-123</span></h5>
+                    <h5>Ответственное подразделение (ремонт): <span>Группа обслуживания лабораторного
+                            оборудования</span></h5>
+                    <h5>Эксплуатирующее подразделение:<span>Химико-аналитическая лаборатория 2.0</span></h5>
+                    <h5>МОЛ: <span>Иванов Иван Иванович</span></h5>
+                    <h5>Территория: <span>г. Санкт-Петербург (Нойдорф)<span></h5>
+                    <h5> Серийный номер:<span> B715976163</span></h5>
+                    <div class="blue">
+                        <h5> GUID: <span>508b2a71-662e-4983-ae0c-3cb0c1cd21c5</span></h5>
+                        <h5> Bims ID: <span>49db8db1-585f-4b9e-bbf0-8a59698edc8b</span></h5>
+                        <h5> Tam: <span>А-001234</span></h5>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="calibration_report">
+                <h4>Calibration report</h4>
+
+                <div class="table_report">
+                    <table>
+                        <tr>
+                            <th>Data</th>
+                            <th>Used buffer solutions</th>
+                            <th>Slope, % Norm 95-105</th>
+                            <th>Offset, mV Norm ±(0-20)s</th>
+                            <th>User</th>
+                        </tr>
+                        <tr>
+                            <td>04.10.19 10:23</td>
+                            <td> В1: № 2000460789536:
+                                pH 1.09 В2: № 2000460789536:
+                                pH 2.00 В3: № 2000460789536:
+                                pH 4.01 В4: № 2000460789536:
+                                pH 7.00 В5: № 2000460789536:
+                                pH 9.21</td>
+                            <td>98.7 <img class="vector_green" src="img/Vector green.png" alt="Vector"></td>
+                            <td>-0.3 <img class="vector_green" src="img/Vector green.png" alt="Vector"></td>
+                            <td>Иванов Генадий Петрович</td>
+
+                        </tr>
+                    </table>
+                    <div class="line">
+                        <img src="img/Line.png" alt="line">
+                        <div>
+                            <table>
+
+                                <tr>
+                                    <td>04.10.19 10:23</td>
+                                    <td> В1: № 2000460789536:
+                                        pH 1.09 В2: № 2000460789536:
+                                        pH 2.00 В3: № 2000460789536:
+                                        pH 4.01 В4: № 2000460789536:
+                                        pH 7.00 В5: № 2000460789536:
+                                        pH 9.21</td>
+                                    <td>98.7 <img class="vector_green" src="img/Vector green.png" alt="Vector"></td>
+                                    <td>-0.3 <img class="vector_green" src="img/Vector green.png" alt="Vector"></td>
+                                    <td>Иванов Генадий Петрович</td>
+                                </tr>
+                            </table>
+                            <div class="line">
+                                <img src="img/Line.png" alt="line">
+                                <div>
+                                    <table>
+
+                                        <tr>
+                                            <td>04.10.19 10:23</td>
+                                            <td> В1: № 2000460789536:
+                                                pH 1.09 В2: № 2000460789536:
+                                                pH 2.00 В3: № 2000460789536:
+                                                pH 4.01 В4: № 2000460789536:
+                                                pH 7.00 В5: № 2000460789536:
+                                                pH 9.21</td>
+                                            <td>98.7 <img class="vector_green" src="img/Vector green.png" alt="Vector">
+                                            </td>
+                                            <td>-0.3 <img class="vector_green" src="img/Vector green.png" alt="Vector">
+                                            </td>
+                                            <td>Иванов Генадий Петрович</td>
+                                        </tr>
+                                    </table>
+                                    <div class="line">
+                                        <img src="img/Line.png" alt="line">
+                                        <div>
+                                            <table>
+                                                <tr>
+                                                    <td>04.10.19 10:23</td>
+                                                    <td> В1: № 2000460789536:
+                                                        pH 1.09 В2: № 2000460789536:
+                                                        pH 2.00 В3: № 2000460789536:
+                                                        pH 4.01 В4: № 2000460789536:
+                                                        pH 7.00 В5: № 2000460789536:
+                                                        pH 9.21</td>
+                                                    <td>90.1 <img class="vector_red" src="img/Vector red.png"
+                                                            alt="Vector"></td>
+                                                    <td>-0.5 <img class="vector_green" src="img/Vector green.png"
+                                                            alt="Vector"></td>
+                                                    <td>Генадьев Иван Петрович</td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+        </main>
+
+
+</body>
+
+</html>
