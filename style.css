@@ -177,6 +177,11 @@ label {
     color: #000000;
 }
 
+
+table{
+    width: 100%;
+}
+
 .table_report th {
     font-size: 13px;
     font-style: normal;
@@ -184,7 +189,10 @@ label {
     color: #939DA6;
     text-align: center;
     padding-bottom: 24px;
-
+    text-align: start;
+    
+   
+    
 }
 
 .table_report td {
@@ -195,6 +203,7 @@ label {
     width: 220px;
     text-align: center;
     padding-top: 24px;
+   
 }
 
 td:last-child {
@@ -211,6 +220,7 @@ td:nth-child(1) {
     color: #353535;
     width: 100px;
     text-align: start;
+    padding-right: 30px;
 
 }
 
@@ -221,5 +231,25 @@ td img {
 
 td {
     vertical-align: top;
+   
+    
+    
 }
+
+th{
+    padding-right: 89px;
+}
+th:nth-child(3) {
+    width: 100px;
+
+}
+
+th:nth-child(4) {
+    width: 100px;
+    
+    
+    
+
+}
+
 
